@@ -1,0 +1,15 @@
+package lista1;
+
+public class exercicio1 {
+	public void core (int a, int b, int c) {
+		int soma = a +b;
+		if(soma<c) {
+			System.out.println("A soma de A+b é menor que C");
+		}
+		else {
+			System.out.println("A soma de A+B não é menor que C");
+		}
+	}
+
+}
+        
