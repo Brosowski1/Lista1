@@ -1,0 +1,22 @@
+package lista1;
+import java.util.Scanner;
+
+
+public class TesteExercicio1 {
+		    public static void main(String[] args) {
+		        Scanner input = new Scanner(System.in);
+		        Exercicio1 obj = new Exercicio1();
+		        
+		        int a1, b1, c1;
+		        System.out.print("Digite o primeiro valor: ");
+		        a1 = input.nextInt();
+		        
+		        System.out.print("Digite o segundo valor: ");
+		        b1 = input.nextInt();
+		        
+		        System.out.print("Digite o terceiro valor: ");
+		        c1 = input.nextInt();
+		        
+		        obj.core(a1, b1, c1);
+		    }
+		}
